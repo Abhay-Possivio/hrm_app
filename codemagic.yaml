@@ -6,7 +6,7 @@ workflows:
     integrations:
       # Must exactly match the API key name in Codemagic
       # (Settings → Integrations → Developer Portal)
-      app_store_connect: YOUR_API_KEY_NAME
+      app_store_connect: Codemagic
     environment:
       ios_signing:
         distribution_type: app_store
